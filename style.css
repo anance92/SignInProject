@@ -10,6 +10,17 @@ html {
     animation: BackgroundGradient 30s ease infinite;
   }
   
+  .logo{
+    background: url(./img/SeaUnicorn.png);
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    box-shadow: 0px 6px 2px #d7dbdb;
+}
+
   h1 {
     position: absolute;
     left: 50%;
@@ -33,7 +44,8 @@ html {
   }
   .login-box {
     position: absolute;
-    top: 50%;
+    margin-top: 20px;
+    top: 60%;
     left: 50%;
     width: 600px;
     padding: 40px;
