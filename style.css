@@ -12,6 +12,7 @@ html {
   
   .logo{
     background: url(./img/SeaUnicorn.png);
+    background-color: rgba(22, 22, 22, 0.6);
     background-size: 100px;
     width: 100px;
     height: 100px;
@@ -137,6 +138,12 @@ html {
                 0 0 100px #f403cc;
   }
   
+  .login-box {
+    position: absolute;
+    display:block;
+    
+  }
+
   .login-box a span {
     position: absolute;
     display: block;
@@ -167,7 +174,7 @@ html {
     height: 100%;
     background: linear-gradient(180deg, transparent, #03e9f4);
     animation: btn-anim2 1s linear infinite;
-    animation-delay: .25s
+    animation-delay: .25s;
   }
   
   /* @keyframes btn-anim2 {
